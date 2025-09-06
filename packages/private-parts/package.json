@@ -1,0 +1,24 @@
+{
+   "name": "@dikolab/private-parts",
+   "version": "1.0.0",
+   "description": "WeakMap storage for private properties used in Typescript class",
+   "type": "module",
+   "main": "./lib/index.js",
+   "module": "./lib/index.mjs",
+   "exports": {
+      ".": {
+         "require": "./lib/index.js",
+         "import": "./lib/index.mjs"
+      }
+   },
+   "scripts": {
+      "test": "vitest",
+      "build": "rollup -c rollup.config.js"
+   },
+   "keywords": [
+      "Private",
+      "WeakMap"
+   ],
+   "author": "Diko TechSlave",
+   "license": "ISC"
+}

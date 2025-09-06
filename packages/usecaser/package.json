@@ -1,0 +1,17 @@
+{
+   "name": "@dikolab/usecaser",
+   "version": "1.0.0",
+   "description": "Helper for organizing structure of the project based on simple Use-case ideology",
+   "main": "index.mjs",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc"
+   },
+   "repository": {
+      "type": "git",
+      "url": "dconsunji-github:dconsunji/test-npm-workspace.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {}
+}
